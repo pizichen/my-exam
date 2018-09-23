@@ -1,0 +1,17 @@
+##server
+server:
+  port: 50000
+  context-path: /file
+##spring
+spring:
+  application:
+    name: exam-file-updown
+  #默认的位置是src/main/webapp 这里可以更换，比如/page/ 那么目录就变成了src/main/webapp/pages
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .jsp
+  servlet:
+    multipart:
+      maxFileSize: 5MB	#设置单个上传文件的大小， =-1时，表示不限制文件大小
+      maxRequestSize: 5MB    #设置一次请求的上传文件总的大小， =-1时，表示不限制文件大小

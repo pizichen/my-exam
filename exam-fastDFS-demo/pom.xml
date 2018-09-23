@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.exam</groupId>
+    <artifactId>exam</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>exam-fastDFS-demo</artifactId>
+  <description>fastDFS文件服务器访问服务</description>
+  
+  <dependencies>
+  	<!-- 事例代码如：FastDFSClient。java 但没有找到合理的方式与springMVC的MultipartFile对象对接，所以，我使用了下面的一个jar包来实现 -->
+  	<dependency>
+	    <groupId>net.oschina.zcx7878</groupId>
+	    <artifactId>fastdfs-client-java</artifactId>
+	    <version>1.27.0.0</version>
+	</dependency>
+  	<!-- https://mvnrepository.com/artifact/com.github.tobato/fastdfs-client -->
+	<dependency>
+	    <groupId>com.github.tobato</groupId>
+	    <artifactId>fastdfs-client</artifactId>
+	    <version>1.26.1-RELEASE</version>
+	</dependency>
+	  	
+  	
+  	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-lang3</artifactId>
+	    <version>3.7</version>
+	</dependency>
+  	
+  	<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+	<dependency>
+	    <groupId>commons-io</groupId>
+	    <artifactId>commons-io</artifactId>
+	    <version>2.4</version>
+	</dependency>
+
+	  	
+  </dependencies>
+  
+  
+</project>

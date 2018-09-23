@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.exam</groupId>
+    <artifactId>exam</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>exam-file-updown</artifactId>
+  <description>文件上传下载</description>
+  
+  	
+  	<dependencies>
+  		<dependency>
+  			<groupId>com.exam</groupId>
+  			<artifactId>exam-fastDFS-demo</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-parent</artifactId>
+		    <version>${spring.boot.version}</version>
+		    <type>pom</type>
+		</dependency>
+  		<dependency>
+  			<groupId>org.springframework.boot</groupId>
+	   		<artifactId>spring-boot-starter-web</artifactId>
+	   		<version>${spring.boot.version}</version>
+  		</dependency>
+        <dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<!-- 因为如果不引入下面的jar包，在访问jsp页面的时候直接看到的是变成了下载的模式 -->
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<version>9.0.11</version>
+			<scope>provided</scope>
+		</dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>${spring.boot.version}</version>
+            <scope>test</scope>
+        </dependency>
+  	</dependencies>
+</project>
