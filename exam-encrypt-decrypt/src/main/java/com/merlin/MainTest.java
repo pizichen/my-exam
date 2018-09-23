@@ -43,7 +43,7 @@ public class MainTest {
 		 * NONEWITHECDSA; NONEWITHRSA; SHA256WITHECDSA; SHA224WITHECDSA; SHA384WITHRSA; SHA512WITHECDSA; SHA1WITHDSA; 
 		 */
 		Set<String> set1 =  Security.getAlgorithms("Signature");
-		set1.forEach((s) -> System.out.print(s + "; "));
+		set1.forEach((s) -> System.out.print(s + "; "));  
 		System.out.println();
 		
 		System.out.println("........MessageDigest.......");

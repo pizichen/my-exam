@@ -62,7 +62,7 @@ public class AppMD5Util {
      * 认证技术引擎类MessageDigests实现MD5加密
      * 对字符串md5加密(大写+数字)
      *
-     * @param s 传入要加密的字符串
+     * @param str 传入要加密的字符串
      * @return  MD5加密后的字符串
      */
     

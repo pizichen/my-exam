@@ -53,10 +53,13 @@ public class CertificateCoderTest {
 	
 	private String ALIAS = "www.merlin.org";
 	
-	private String CERTIFICATE_PATH = "D:/secret/merlin.cer";
+	private String CERTIFICATE_PATH = "/Users/apple/Documents/Java/secret/merlin.cer";
 	
-	private String KEYSTORE_PATH = "D:/secret/merlin.keystore";
+	private String KEYSTORE_PATH = "/Users/apple/Documents/Java/secret/merlin.keystore";
 	
+//	private String CERTIFICATE_PATH = "D:/secret/certs/ca.cer";
+//	
+//	private String KEYSTORE_PATH = "D:/secret/certs/ca.key";
 	
 	/**
 	 * @Title: testPublicKEnPrivateKDe   

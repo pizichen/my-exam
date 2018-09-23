@@ -24,15 +24,6 @@ import javax.crypto.Cipher;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.codec.digest.DigestUtils;
-/**
- * 
- * @Title:  RSAUtils.java   
- * @Package com.merlin   
- * @Description:    TODO(用一句话描述该文件做什么)   
- * @author: Merlin.Chen   
- * @date:   2018年9月17日 下午6:03:09   
- * @version V1.0
- */
 
 public class RSAUtils {
 

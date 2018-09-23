@@ -57,7 +57,7 @@ public class PEMCoderTest {
 
 		private String PASSWORD = "123456";
 		// server.key.em client.key.pem 都可以
-		private String PEM_FILE_PATH = "D:/secret/private/ca.key.pem";
+		private String PEM_FILE_PATH = "/Users/apple/Documents/Java/secret/private/ca.key.pem";
 		
 		private PublicKey publicKey;
 		
