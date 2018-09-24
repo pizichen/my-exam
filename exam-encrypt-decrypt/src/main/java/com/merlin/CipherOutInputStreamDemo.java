@@ -114,9 +114,9 @@ public class CipherOutInputStreamDemo {
 
 	public static void main(String[] args) throws InvalidKeyException,
 			NoSuchAlgorithmException, NoSuchPaddingException, IOException {
-		// write();
-		// read();
-		read("4+ybBPdzmLk=");
+		 write();
+		 read();
+//		 read("4+ybBPdzmLk=");
 	}
 
 }
